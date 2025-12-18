@@ -11,7 +11,9 @@
 \usepackage{cite}
 
 
-%----------------------- Title --------------------------------------
+%------------------------------------------------------------------------------
+%----------------------- Title & abstract --------------------------------------
+%------------------------------------------------------------------------------
 \title{Constraining Beyond the Standard Model Physics with DESI Cosmological Data}
 \author{[Authors TBD]}
 \date{\today}
@@ -24,7 +26,10 @@
 We explore constraints on various Beyond the Standard Model (BSM) scenarios using cosmological data from the Dark Energy Spectroscopic Instrument (DESI). We consider light thermal relics, axion-like particles, cannibal dark matter, decaying dark matter and other models, analyzing how DESI measurements of large-scale structure and baryon acoustic oscillations can probe these new physics scenarios.
 \end{abstract}
 
-%-------------------------------------------------------------------------
+
+%---------------------------------------------------------------------------------------
+%-------------------- introduction -----------------------------------------------------
+%---------------------------------------------------------------------------------------
 \section{Introduction}
 DESI provides unprecedented precision in mapping the large-scale structure of the universe through spectroscopic observations of millions of galaxies and quasars. This data offers powerful constraints on cosmological parameters and can probe physics beyond the standard cosmological model ($\Lambda$CDM).
 
@@ -34,14 +39,21 @@ DESI provides unprecedented precision in mapping the large-scale structure of th
 \subsection{BSM Signatures in Cosmology}
 % How BSM physics affects cosmological observables
 
+
+
+%===========================================================================
+%-------------------- Somewhat standard DM models --------------------------
+%===========================================================================
+
+
+
+%---------------------------------------------------------------------------
+%-------------------- Light Thermal Relics --------------------------------
+%----------------------------------------------------------------------------
 \section{Light Thermal Relics}
 
-Light thermal relics contribute to the effective number of relativistic species $N_{\text{eff}}$ and can leave imprints on:
-\begin{itemize}
-    \item The cosmic microwave background (CMB)
-    \item The matter power spectrum
-    \item Baryon acoustic oscillations (BAO)
-\end{itemize}
+Light thermal relics contribute to the effective number of relativistic species $N_{\text{eff}}$ and can leave imprints on...
+
 
 \subsection{Theoretical Framework}
 % Add discussion of light relic freeze-out, effective number of species
@@ -53,27 +65,38 @@ Light thermal relics contribute to the effective number of relativistic species 
 % Expected sensitivity from DESI data
 % Comparison with Planck and other surveys
 
+
+%---------------------------------------------------------------------------
+%-------------------- Axions and Axion-Like Particles ----------------------
+%---------------------------------------------------------------------------
 \section{Axions and Axion-Like Particles (ALPs)}
 
 Axions are pseudo-Nambu-Goldstone bosons arising from the Peccei-Quinn mechanism. Axion-like particles share similar properties but may arise from different symmetries.
 
-\subsection{QCD Axion}
+\subsection{Axion zoology}
+
+\subsubsection{QCD Axion}
 % Standard QCD axion as dark matter candidate
 % Mass ranges and coupling constraints
 
-\subsection{Ultralight Axions / Fuzzy Dark Matter}
+\subsubsection{Ultralight Axions / Fuzzy Dark Matter}
 % Effects on small-scale structure
 % de Broglie wavelength suppression
 % Impact on Lyman-$\alpha$ forest and small-scale power
 
-\subsection{Axion-Photon Coupling}
+\subsubsection{Axion-Photon Coupling}
 % Effects on photon propagation
 % Constraints from distance measurements
 
-\subsection{DESI Sensitivity}
+
+\subsection{DESI Constraints}
 % How DESI constrains axion masses and couplings
 % Complementarity with other experiments
 
+
+%---------------------------------------------------------------------------
+%-------------------- Cannibal Dark Matter -----------------------------------
+%---------------------------------------------------------------------------
 \section{Cannibal Dark Matter}
 
 Cannibal dark matter scenarios involve dark sector particles with strong self-interactions ($3 \to 2$ or higher-order processes) that remain in kinetic equilibrium after decoupling from the Standard Model.
@@ -93,10 +116,15 @@ Cannibal dark matter scenarios involve dark sector particles with strong self-in
 % Mass ranges
 % Connection to dark sector models
 
-\subsection{DESI Probes}
+\subsection{DESI Analysis}
 % How BAO and growth rate measurements constrain cannibal DM
 % Synergies with CMB observations
 
+
+
+%---------------------------------------------------------------------------
+%-------------------- Decaying Dark Matter -----------------------------------
+%---------------------------------------------------------------------------
 \section{Decaying Dark Matter}
 
 Dark matter decay can inject energy into the intergalactic medium and affect structure formation and cosmic expansion history.
@@ -107,14 +135,13 @@ Dark matter decay can inject energy into the intergalactic medium and affect str
 % Decay lifetimes and branching ratios
 
 \subsection{Cosmological Effects}
-% Energy injection and ionization history
 % Modification of matter density evolution
-% Effects on CMB and 21cm signal
 % Impact on structure growth
+% Energy injection and ionization history
+% Effects on CMB and 21cm signal
 
 \subsection{Constraints from Large-Scale Structure}
 % How decaying DM affects power spectrum
-% Velocity-dependent effects
 % Scale-dependent signatures
 
 \subsection{DESI Analysis}
@@ -122,17 +149,33 @@ Dark matter decay can inject energy into the intergalactic medium and affect str
 % Complementarity with CMB and X-ray observations
 % Model-dependent vs model-independent constraints
 
+
+
+
+%===========================================================================
+%-------------------- more exotic scenarios --------------------------------
+%===========================================================================
+
+
+%---------------------------------------------------------------------------
+%-------------------- Interacting Dark Energy - Dark Matter -----------------
+%---------------------------------------------------------------------------
 \section{Interacting Dark Energy - Dark Matter}
 
 \subsection{Coupling Models}
-% Interaction terms in the cosmological equations
+% Interaction terms in cosmological equations
 % Energy-momentum exchange
 
 \subsection{Effects on Expansion History and Growth}
 % Modified Hubble parameter
 % Growth rate modifications
 
+\subsection{DESI Constraints}
 
+
+%-----------------------------------------------------------------------------
+%-------------------- Primordial Black Holes ---------------------------------
+%-----------------------------------------------------------------------------
 \section{Primordial Black Holes}
 
 \subsection{PBH as Dark Matter}
@@ -143,6 +186,14 @@ Dark matter decay can inject energy into the intergalactic medium and affect str
 % Extended vs point-like nature at different scales
 % Clustering properties
 
+\subsection{DESI constraints}
+
+
+
+%============================================================================
+%-------------------- Analysis Strategy, Results, conclusions ---------------
+%============================================================================
+
 \section{Analysis Strategy}
 
 \subsection{Data and Observables}
@@ -152,13 +203,12 @@ Dark matter decay can inject energy into the intergalactic medium and affect str
 
 \subsection{Theoretical Modeling}
 % Modified Boltzmann codes (CLASS, CAMB)
-% Perturbation theory
-% N-body simulations for non-linear regime
+% EFT codes for actual observables 
 
 \subsection{Statistical Methods}
 % MCMC analysis
-% Nested sampling
-% Model comparison (Bayesian evidence)
+% Nested sampling or other techniques
+% Likelihood construction
 
 \subsection{Systematic Uncertainties}
 % Observational systematics
@@ -187,8 +237,17 @@ Dark matter decay can inject energy into the intergalactic medium and affect str
 % Combination with Euclid, LSST, CMB-S4
 % Next-generation experiments
 
+
+
+
+
+%-----------------------------------------------------------------------
+%-------------------- Acknowledgments etc ------------------------------
+%-----------------------------------------------------------------------
+
+
 \section*{Acknowledgments}
-% Funding agencies, collaborations, etc.
+% Funding, collaborations, competing interests
 
 \bibliographystyle{JHEP}
 \bibliography{references}
